@@ -1,5 +1,5 @@
+# HW1: Create testcases using my own Test Framework
 import pytest
-import requests
 from utils import make_request, verify, parse_output, gen_endpoint, gen_header, gen_request, gen_data
 
 
