@@ -1,7 +1,7 @@
 # HW3: Create testcases using my own Test Framework
 import pytest
 import sys
-sys.path.insert(0, '..')
+sys.path.insert(0, '.')
 
 from util_lib.gen_endpoint import generate_endpoint
 from util_lib.gen_request import gen_http_request
