@@ -12,9 +12,9 @@ from util_lib.gen_data import gen_data
 
 
 @pytest.mark.hw3
-def test_1_get_all_posts(api):
+def test_1_get_all_posts():
     endpoint = generate_endpoint(front_resource="posts")
-    http_req_url = gen_http_request(base_url=api, end_point=endpoint)
+    http_req_url = gen_http_request(base_url="https://jsonplaceholder.typicode.com/", end_point=endpoint)
     response = make_http_request("GET", url=http_req_url)
     parse_output(response)
 
