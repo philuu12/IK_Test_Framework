@@ -3,18 +3,18 @@ import pytest
 import sys
 sys.path.insert(1, '..')
 
-# from util_lib.gen_endpoint import generate_endpoint
-# from util_lib.gen_request import gen_http_request
-# from util_lib.make_request import make_http_request
-# from util_lib.parse_output import parse_output
-# from util_lib.gen_header import generate_header
-# from util_lib.gen_data import gen_data
-from gen_endpoint import generate_endpoint
-from gen_request import gen_http_request
-from make_request import make_http_request
-from parse_output import parse_output
-from gen_header import generate_header
-from gen_data import gen_data
+from util_lib.gen_endpoint import generate_endpoint
+from util_lib.gen_request import gen_http_request
+from util_lib.make_request import make_http_request
+from util_lib.parse_output import parse_output
+from util_lib.gen_header import generate_header
+from util_lib.gen_data import gen_data
+# from gen_endpoint import generate_endpoint
+# from gen_request import gen_http_request
+# from make_request import make_http_request
+# from parse_output import parse_output
+# from gen_header import generate_header
+# from gen_data import gen_data
 
 @pytest.mark.hw3
 def test_1_get_all_posts(api):
